@@ -13,6 +13,7 @@
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.TextAsset" preserve="all" />
@@ -30,6 +31,11 @@
     <type fullname="UnityEngine.AudioSource" preserve="all" />
     <type fullname="UnityEngine.AudioClip" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Tilemaps.Tile" preserve="all" />
+    <type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="all" />
+    <type fullname="UnityEngine.Tilemaps.Tilemap" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
@@ -40,6 +46,7 @@
     <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
   </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Millennium.InGame.Entity.Player.PlayerMomoi" preserve="all" />
@@ -54,28 +61,47 @@
     <type fullname="Millennium.InGame.Entity.Bullet.EnemyBullet" preserve="all" />
     <type fullname="Millennium.InGame.Effect.SpriteSwitcher" preserve="all" />
     <type fullname="Millennium.OutGame.Screen.PlayerSelect" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.BossBinahBody" preserve="all" />
     <type fullname="Millennium.OutGame.Screen.Information" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Enemy.BossKarin" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Bullet.PlayerLaser" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Bullet.YuzuBomb" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Player.PlayerMidori" preserve="all" />
     <type fullname="Millennium.UI.ButtonSE" preserve="all" />
     <type fullname="Millennium.InGame.AI.AimShot" preserve="all" />
     <type fullname="Millennium.InGame.AI.FixedShot" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Player.PlayerYuzu" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Player.PlayerAlice" preserve="all" />
     <type fullname="Millennium.InGame.Stage.StageData" preserve="all" />
+    <type fullname="Millennium.OutGame.Screen.DialogTweet" preserve="all" />
     <type fullname="Millennium.OutGame.Screen.Result" preserve="all" />
     <type fullname="Millennium.InGame.Effect.ParticleDestroyer" preserve="all" />
+    <type fullname="Millennium.InGame.Stage.BackgroundTileScroller" preserve="all" />
     <type fullname="Millennium.InGame.AI.SpiralShot" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.BossAsuna" preserve="all" />
     <type fullname="Millennium.InGame.Effect.ParticleShapeScaler" preserve="all" />
     <type fullname="Millennium.UI.ImageSwitcher" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Bullet.YuzuBlast" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Enemy.BossYuuka" preserve="all" />
     <type fullname="Millennium.OutGame.Screen.Title" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Enemy.EnemyBox" preserve="all" />
     <type fullname="Millennium.UI.CanvasCameraSetter" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Item.ItemUltimateAccelerant" preserve="all" />
     <type fullname="Millennium.InGame.Entity.Platform.Platform" preserve="all" />
     <type fullname="Millennium.UI.ImageScroller" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Item.ItemMedkit" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Bullet.YuzuGrenade" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.BossBinah" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.BossAkane" preserve="all" />
+    <type fullname="Millennium.InGame.AI.ItemDrop" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Bullet.DrumBlast" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.MidBossAsuna" preserve="all" />
+    <type fullname="Millennium.InGame.Effect.Balloon" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Enemy.MidBossAkane" preserve="all" />
+    <type fullname="Millennium.InGame.Entity.Bullet.YuzuMissile" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
   </assembly>
@@ -89,5 +115,8 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
     <type fullname="UnityEngine.Canvas" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Grid" preserve="all" />
   </assembly>
 </linker>
